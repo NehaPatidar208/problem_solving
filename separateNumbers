@@ -1,0 +1,26 @@
+def separateNumbers(s):
+    if(s[0]=='0' or len(s)<2):
+        return 'NO'
+    for i in range(len(s)//2):
+        t=s[:i+1]
+        g=int(t)
+        j=1
+        while(len(t)<len(s)):
+            t+=str(g+j)
+            #print(t)
+            j+=1
+        if(t==s):
+            return "YES "+str(g)
+    return 'NO'
+    
+
+
+
+
+if __name__ == '__main__':
+    q = int(input())
+
+    for q_itr in range(q):
+        s = input()
+
+        print(separateNumbers(s))
