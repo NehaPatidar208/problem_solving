@@ -7,7 +7,7 @@ def separateNumbers(s):
         j=1
         while(len(t)<len(s)):
             t+=str(g+j)
-            #print(t)
+            
             j+=1
         if(t==s):
             return "YES "+str(g)
