@@ -1,1 +1,1 @@
-This repository contain solutions of problem solving molude of hacker rank
+This repository contain solutions of problem solving module of hacker rank
